@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: #241e1e;
+}
+#main {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-image: url("./background.svg");
+    
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.about-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-box #about-box-outer {
+    position: absolute;
+    width: 500px;
+    min-height: 250px;
+    height: auto;
+    max-height: fit-content;
+    border: 3px solid #ded8c2;
+    filter: blur(2px);
+}
+.about-box #about-box-inner {
+    position: absolute;
+    width: 500px;
+    min-height: 250px;
+    height: auto;
+    max-height: fit-content;
+    background-color: #241e1e;
+    border: 1px solid #ded8c2;
+    display: flex;
+}
+/* Inner */
+.col {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.info {
+    color: white;
+    padding: 16pt;
+}
+.col * {
+    margin: 4pt;
+}
+.about-box-avatar {
+    width: 50%;
+    
+}
+.col h1 {
+    font-weight: 300;
+    font-size: 24pt;
+}
+.about-box-redirect {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16pt;
+    transition: 0.2s;
+    width: 75%;
+    
+}
+.about-box-redirect:hover, a:hover {
+    text-decoration: underline;
+
+}
+#back {
+    margin-top: 16px;
+}
+.contact-icon {
+    width: 128pt;
+    height: 128pt;
+}
+h3 {
+    font-weight: 500;
+}
+a, a:visited {
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}

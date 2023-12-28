@@ -1,3 +1,7 @@
+///
+/// Be afraid
+///
+
 function CreateBio() {
     document.getElementById("about-box-inner").innerHTML = `
     <div class=\"info\">
